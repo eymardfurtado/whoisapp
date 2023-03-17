@@ -1,0 +1,22 @@
+.resultsCard {
+    background-color: #fdfdfd;
+    border: none;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    width: 100%;
+}
+
+.heading {
+  font: 700 19px Lato,sans-serif;
+    padding: 11px 20px;
+    background-color: #f0f0f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .resultsCard {
+      background-color: #fdfdfd;
+  }
+  .heading {
+      background-color: #3b3b3b;
+  }
+}

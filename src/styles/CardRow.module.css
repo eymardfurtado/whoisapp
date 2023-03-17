@@ -1,0 +1,26 @@
+.cardLabel {
+  flex-basis: 130px;
+  color: #757575;
+}
+.cardValue {
+  white-space: pre-wrap;
+  color: #000;
+  overflow-x: auto;
+  text-overflow: ellipsis;
+}
+.cardRow {
+  display: flex;
+  padding: 8px 0;
+  border-bottom: 1px solid #e8e8e8;
+  margin: 0 20px;
+  line-height: 20px;
+}
+
+@media (max-width: 500px) {
+  .cardValue, .cardRow {
+    font-size: .75rem;
+  }
+  .cardLabel {
+    flex-basis: 110px;
+  }
+}

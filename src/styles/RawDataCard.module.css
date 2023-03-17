@@ -1,0 +1,45 @@
+.button {
+  text-align: center;
+  border: none;
+  margin-left: 2px;
+  border-radius: 3px;
+  padding: 0 6px;
+  width: 18px;
+  
+  background-color: #bdbdbd;
+}
+.propCount, .button {
+  background-color: #bdbdbd;
+  border-radius: 3px;
+  padding: 2px 4px;
+  margin: 0 2px;
+  font-size: .75rem;
+}
+
+.value {
+  color: #000;
+}
+.resultsCard {
+  background-color: #fdfdfd;
+  border: none;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  width: 100%;
+  min-height: 85px;
+}
+
+.heading {
+font: 700 19px Lato,sans-serif;
+  padding: 11px 20px;
+  background-color: #f0f0f0;
+}
+
+@media (prefers-color-scheme: dark) {
+.resultsCard {
+    background-color: #fdfdfd;
+}
+.heading {
+    background-color: #3b3b3b;
+    /* color: #f0f0f0; */
+}
+}
