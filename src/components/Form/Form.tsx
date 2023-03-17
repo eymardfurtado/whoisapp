@@ -12,8 +12,6 @@ const SearchForm = ({
   const inputRef = React.useRef<HTMLInputElement>(null);
 
   const handleSubmit = (event: React.FormEvent) => {
-  // function handleSubmit(event: React.FormEvent) { // $$$$$ change to arrow
-    console.log("also clicked")
     event.preventDefault();
     if (inputRef.current?.value.trim()) {
       onSubmit(inputRef.current.value);

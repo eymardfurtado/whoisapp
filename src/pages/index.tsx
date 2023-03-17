@@ -10,7 +10,6 @@ export default function Home() {
   const [data, setData] = useState<Whois | null>(null);
 
   const onSubmit = (inputValue: string) => {
-    console.log("clicked")
     fetch(`api/search-whois?domainName=${inputValue}`)
       .then(res => {
         return res.json()
